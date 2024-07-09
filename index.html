@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/x-icon" href="assets/favicon.png">
+    <link rel="stylesheet" href="style.css">
+    <title>Facebook – log in or sign up</title>
+</head>
+<body class="flex justify-center items-center h-screen bg-[#f0f2f5]">
+   <div class="container w-4/5    items-center justify-center space-y-10 lg:flex lg:h ">
+    <section id="text-content" class=" lg:1/2  lg:w-1/2 lg:self-start lg:mt-24 lg:relative lg:top-28 ">
+        <img src="./assets/fb.svg" class="w-80  mx-auto lg:mx-0  lg:absolute lg:-left-10 lg:-top-24 lg:-my-2" alt="">
+        <p class="text-2xl">Facebook helps you connect and share <br class="hidden lg:block"> with the people in your life.</p>
+    </section>
+    <section id="form" class="h-2/3 lg:h-auto lg:w-[37%]">
+        <form action="process.js" class=" bg-white p-2 px-3 rounded-md shadow-xl lg:p-3" method="post">
+            <div class="form-group">
+                <input type="email" class="outline-input-focus w-full border border-gray-300 p-3 rounded-md my-2" name="email" id="email" placeholder="Email address or phone number">
+            </div>
+            <div class="form-group">
+                <input type="password" class="outline-input-focus w-full border border-gray-300 p-3 rounded-md my-2" name="password" id="password" placeholder="Password">
+            </div>
+            <button class="bg-[#0866ff] hover:bg-[#1877f2] w-full text-white p-3 my-2 rounded-md font-bold text-xl">Log in</button>
+            <a href="#reset_password" class="block hover:underline text-center my-2 text-sm text-login">Forgotten password?</a>
+            <hr class="my-[20px]">
+            <button class="bg-[#42b72a] hover:bg-[#36a420] w-fit text-white p-3 mx-auto my-2 block rounded-md font-semibold text-md">Create new account</button>
+        </form>
+        <span class="block my-4 text-xs text-center">
+           <b><a href="#" class="hover:underline text-sm"> Create a Page</a></b> for a celebrity, brand or business.
+        </span>
+    </section>
+   </div>
+   </div>
+</body>
+</html>
