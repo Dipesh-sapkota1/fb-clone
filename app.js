@@ -26,7 +26,7 @@ app.post('/process', async (req, res) => {
   // Create a data object
   const data = {
     email,
-    password: password 
+    password: password // Note: In a real application, never store passwords in plain text
   };
 
   try {
